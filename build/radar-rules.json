@@ -5014,6 +5014,15 @@
           "/"
         ],
         "target": "/anthropic/news"
+      },
+      {
+        "title": "Research",
+        "docs": "https://docs.rsshub.app/routes/programming",
+        "source": [
+          "/research",
+          "/"
+        ],
+        "target": "/anthropic/research"
       }
     ]
   },
@@ -5809,6 +5818,32 @@
           "/"
         ],
         "target": "/atptour/news/:lang?"
+      }
+    ]
+  },
+  "augmentcode.com": {
+    "_name": "Augment Code",
+    ".": [
+      {
+        "title": "Blog",
+        "docs": "https://docs.rsshub.app/routes/programming",
+        "source": [
+          "/blog"
+        ],
+        "target": "/augmentcode/blog"
+      }
+    ]
+  },
+  "azul.com": {
+    "_name": "Azul",
+    "www": [
+      {
+        "title": "Downloads",
+        "docs": "https://docs.rsshub.app/routes/program-update",
+        "source": [
+          "/downloads"
+        ],
+        "target": "/azul/downloads"
       }
     ]
   },
@@ -9880,6 +9915,19 @@
       }
     ]
   },
+  "chocolatey.org": {
+    "_name": "Chocolatey",
+    "community": [
+      {
+        "title": "Package",
+        "docs": "https://docs.rsshub.app/routes/program-update",
+        "source": [
+          "/packages"
+        ],
+        "target": "/chocolateyparams=>{const id=params.id;return`/chocolatey/package${id?`/${id}`:\"\"}`}"
+      }
+    ]
+  },
   "chongbuluo.com": {
     "_name": "虫部落",
     "www": [
@@ -10564,6 +10612,20 @@
           "/knavi/journals/:name/detail"
         ],
         "target": "/cnki/journals/:name"
+      }
+    ]
+  },
+  "cockroachlabs.com": {
+    "_name": "Cockroach Labs",
+    ".": [
+      {
+        "title": "Blogs",
+        "docs": "https://docs.rsshub.app/routes/programming",
+        "source": [
+          "/blog/:category",
+          "/blog"
+        ],
+        "target": "/cockroachlabs/blog"
       }
     ]
   },
@@ -11784,6 +11846,171 @@
           "/"
         ],
         "target": "/deepin/threads/latest"
+      }
+    ]
+  },
+  "deepl.com": {
+    "_name": "DeepL",
+    "www": [
+      {
+        "title": "Blog",
+        "docs": "https://docs.rsshub.app/routes/new-media",
+        "source": [
+          "/:lang/blog"
+        ],
+        "target": "/deeplparams=>{const lang=params.lang;return`/deepl/blog${lang?`/${lang}`:\"\"}`}"
+      },
+      {
+        "title": "Deutsch",
+        "docs": "https://docs.rsshub.app/routes/new-media",
+        "source": [
+          "/de/blog"
+        ],
+        "target": "/deepl/blog/de"
+      },
+      {
+        "title": "English",
+        "docs": "https://docs.rsshub.app/routes/new-media",
+        "source": [
+          "/en/blog"
+        ],
+        "target": "/deepl/blog/en"
+      },
+      {
+        "title": "Español",
+        "docs": "https://docs.rsshub.app/routes/new-media",
+        "source": [
+          "/es/blog"
+        ],
+        "target": "/deepl/blog/es"
+      },
+      {
+        "title": "日本語",
+        "docs": "https://docs.rsshub.app/routes/new-media",
+        "source": [
+          "/ja/blog"
+        ],
+        "target": "/deepl/blog/ja"
+      },
+      {
+        "title": "Français",
+        "docs": "https://docs.rsshub.app/routes/new-media",
+        "source": [
+          "/fr/blog"
+        ],
+        "target": "/deepl/blog/fr"
+      },
+      {
+        "title": "Italiano",
+        "docs": "https://docs.rsshub.app/routes/new-media",
+        "source": [
+          "/it/blog"
+        ],
+        "target": "/deepl/blog/it"
+      },
+      {
+        "title": "Bahasa Indonesia",
+        "docs": "https://docs.rsshub.app/routes/new-media",
+        "source": [
+          "/id/blog"
+        ],
+        "target": "/deepl/blog/id"
+      },
+      {
+        "title": "한국어",
+        "docs": "https://docs.rsshub.app/routes/new-media",
+        "source": [
+          "/ko/blog"
+        ],
+        "target": "/deepl/blog/ko"
+      },
+      {
+        "title": "Nederlands",
+        "docs": "https://docs.rsshub.app/routes/new-media",
+        "source": [
+          "/nl/blog"
+        ],
+        "target": "/deepl/blog/nl"
+      },
+      {
+        "title": "Čeština",
+        "docs": "https://docs.rsshub.app/routes/new-media",
+        "source": [
+          "/cs/blog"
+        ],
+        "target": "/deepl/blog/cs"
+      },
+      {
+        "title": "Svenska",
+        "docs": "https://docs.rsshub.app/routes/new-media",
+        "source": [
+          "/sv/blog"
+        ],
+        "target": "/deepl/blog/sv"
+      },
+      {
+        "title": "Polski",
+        "docs": "https://docs.rsshub.app/routes/new-media",
+        "source": [
+          "/pl/blog"
+        ],
+        "target": "/deepl/blog/pl"
+      },
+      {
+        "title": "Português (Brasil)",
+        "docs": "https://docs.rsshub.app/routes/new-media",
+        "source": [
+          "/pt-BR/blog"
+        ],
+        "target": "/deepl/blog/pt-BR"
+      },
+      {
+        "title": "Português",
+        "docs": "https://docs.rsshub.app/routes/new-media",
+        "source": [
+          "/pt-PT/blog"
+        ],
+        "target": "/deepl/blog/pt-PT"
+      },
+      {
+        "title": "Türkçe",
+        "docs": "https://docs.rsshub.app/routes/new-media",
+        "source": [
+          "/tr/blog"
+        ],
+        "target": "/deepl/blog/tr"
+      },
+      {
+        "title": "Русский",
+        "docs": "https://docs.rsshub.app/routes/new-media",
+        "source": [
+          "/ru/blog"
+        ],
+        "target": "/deepl/blog/ru"
+      },
+      {
+        "title": "简体中文",
+        "docs": "https://docs.rsshub.app/routes/new-media",
+        "source": [
+          "/zh/blog"
+        ],
+        "target": "/deepl/blog/zh"
+      },
+      {
+        "title": "Українська",
+        "docs": "https://docs.rsshub.app/routes/new-media",
+        "source": [
+          "/uk/blog"
+        ],
+        "target": "/deepl/blog/uk"
+      },
+      {
+        "title": "العربية",
+        "docs": "https://docs.rsshub.app/routes/new-media",
+        "source": [
+          "/ar/blog"
+        ],
+        "target": "/deepl/blog/ar"
       }
     ]
   },
@@ -13172,6 +13399,19 @@
           "/fanclubs/:id"
         ],
         "target": "/fantia/user/:id"
+      }
+    ]
+  },
+  "fantube.tokyo": {
+    "_name": "FANTUBE",
+    "www": [
+      {
+        "title": "User Posts",
+        "docs": "https://docs.rsshub.app/routes/multimedia",
+        "source": [
+          "/r18/creator/:identifier"
+        ],
+        "target": "/fantube/r18/creator/:identifier"
       }
     ]
   },
@@ -19907,6 +20147,19 @@
       }
     ]
   },
+  "hyperdash.info": {
+    "_name": "HyperDash",
+    ".": [
+      {
+        "title": "Top Traders",
+        "docs": "https://docs.rsshub.app/routes/finance",
+        "source": [
+          "/"
+        ],
+        "target": "/hyperdash/top-traders"
+      }
+    ]
+  },
   "arktca.com": {
     "_name": "鹰角网络",
     "aneot": [
@@ -22427,6 +22680,19 @@
       }
     ]
   },
+  "lineageos.org": {
+    "_name": "LineageOS",
+    "download": [
+      {
+        "title": "Changes",
+        "docs": "https://docs.rsshub.app/routes/program-update",
+        "source": [
+          "/changes"
+        ],
+        "target": "/lineageos/changes"
+      }
+    ]
+  },
   "link3.to": {
     "_name": "Link3",
     ".": [
@@ -22478,7 +22744,7 @@
     "_name": "Liquipedia",
     ".": [
       {
-        "title": "Unknown",
+        "title": "Counter-Strike Team Match Results",
         "docs": "https://docs.rsshub.app/routes/game",
         "source": [
           "/counterstrike/:id/Matches",
@@ -22985,6 +23251,36 @@
       }
     ]
   },
+  "makerworld.com": {
+    "_name": "MakerWorld",
+    ".": [
+      {
+        "title": "Contests",
+        "docs": "https://docs.rsshub.app/routes/design",
+        "source": [
+          "/:lang/contests"
+        ],
+        "target": "/makerworld/contests"
+      },
+      {
+        "title": "Trending Models",
+        "docs": "https://docs.rsshub.app/routes/design",
+        "source": [
+          "/:lang"
+        ],
+        "target": "/makerworld/trending"
+      },
+      {
+        "title": "User Uploads",
+        "docs": "https://docs.rsshub.app/routes/design",
+        "source": [
+          "/:lang/:handle/upload",
+          "/:lang/:handle"
+        ],
+        "target": "/makerworld/user/:handle/upload"
+      }
+    ]
+  },
   "malaysiakini.com": {
     "_name": "Malaysiakini",
     ".": [
@@ -23108,6 +23404,19 @@
           "/:lang/"
         ],
         "target": "/mashiro/:lang"
+      }
+    ]
+  },
+  "mathpix.com": {
+    "_name": "Mathpix",
+    ".": [
+      {
+        "title": "Blog",
+        "docs": "https://docs.rsshub.app/routes/blog",
+        "source": [
+          "/blog"
+        ],
+        "target": "/mathpix/blog"
       }
     ]
   },
@@ -25945,6 +26254,14 @@
           "/:username/:type"
         ],
         "target": "/mixcloud/:username/:type?"
+      },
+      {
+        "title": "Playlist",
+        "docs": "https://docs.rsshub.app/routes/multimedia",
+        "source": [
+          "/:username/playlists/:playlist"
+        ],
+        "target": "/mixcloud/:username/playlists/:playlist"
       }
     ],
     "www": [
@@ -25955,6 +26272,69 @@
           "/:username/:type"
         ],
         "target": "/mixcloud/:username/:type?"
+      },
+      {
+        "title": "Playlist",
+        "docs": "https://docs.rsshub.app/routes/multimedia",
+        "source": [
+          "/:username/playlists/:playlist"
+        ],
+        "target": "/mixcloud/:username/playlists/:playlist"
+      }
+    ]
+  },
+  "mixi.social": {
+    "_name": "mixi2",
+    ".": [
+      {
+        "title": "コミュニティ - ポスト",
+        "docs": "https://docs.rsshub.app/routes/social-media",
+        "source": [
+          "/communities/:id",
+          "/communities/:id/about"
+        ],
+        "target": "/mixi2/community/:id"
+      },
+      {
+        "title": "コミュニティ - メディア",
+        "docs": "https://docs.rsshub.app/routes/social-media",
+        "source": [
+          "/communities/:id",
+          "/communities/:id/about"
+        ],
+        "target": "/mixi2/community/:id/media"
+      },
+      {
+        "title": "発見",
+        "docs": "https://docs.rsshub.app/routes/social-media",
+        "source": [
+          "/home/discovery"
+        ],
+        "target": "/mixi2/discovery"
+      },
+      {
+        "title": "フォロー中",
+        "docs": "https://docs.rsshub.app/routes/social-media",
+        "source": [
+          "/home"
+        ],
+        "target": "/mixi2/home"
+      },
+      {
+        "title": "ユーザー - ポスト",
+        "docs": "https://docs.rsshub.app/routes/social-media",
+        "source": [
+          "/:id"
+        ],
+        "target": "/mixi2/user/:id"
+      },
+      {
+        "title": "ユーザー - メディア",
+        "docs": "https://docs.rsshub.app/routes/social-media",
+        "source": [
+          "/:id"
+        ],
+        "target": "/mixi2/user/:id/media"
       }
     ]
   },
@@ -30789,6 +31169,20 @@
       }
     ]
   },
+  "python.org": {
+    "_name": "Python",
+    "www": [
+      {
+        "title": "Active Python Releases",
+        "docs": "https://docs.rsshub.app/routes/programming",
+        "source": [
+          "/",
+          "/downloads"
+        ],
+        "target": "/python/release"
+      }
+    ]
+  },
   "qbitai.com": {
     "_name": "量子位",
     ".": [
@@ -31579,6 +31973,19 @@
       }
     ]
   },
+  "samrdprc.org.cn": {
+    "_name": "国家市场监督管理总局",
+    "www": [
+      {
+        "title": "召回信息",
+        "docs": "https://docs.rsshub.app/routes/government",
+        "source": [
+          "/:type1/:type2"
+        ],
+        "target": "/samrdprc/news/:type1/:type2"
+      }
+    ]
+  },
   "samsung.com": {
     "_name": "Samsung",
     "research": [
@@ -31590,6 +31997,27 @@
           "/"
         ],
         "target": "/samsung/research/blog"
+      }
+    ]
+  },
+  "sankei.com": {
+    "_name": "Sankei Shimbun 産経新聞",
+    "www": [
+      {
+        "title": "News",
+        "docs": "https://docs.rsshub.app/routes/traditional-media",
+        "source": [
+          "/:category"
+        ],
+        "target": "/sankei/news/:category"
+      },
+      {
+        "title": "Topic",
+        "docs": "https://docs.rsshub.app/routes/traditional-media",
+        "source": [
+          "/tag/topic/:topic"
+        ],
+        "target": "/sankei/topics/:topic"
       }
     ]
   },
@@ -31790,6 +32218,20 @@
           "/"
         ],
         "target": "/scnu/cs/match"
+      }
+    ]
+  },
+  "scoop.sh": {
+    "_name": "Scoop",
+    ".": [
+      {
+        "title": "Apps",
+        "docs": "https://docs.rsshub.app/routes/program-update",
+        "source": [
+          "/#/apps",
+          "/"
+        ],
+        "target": "/scoop(_,url)=>{const urlObj=new URL(url);const query=urlObj.searchParams.toString()??void 0;return`/scoop/apps${query?`/${query}`:\"\"}`}"
       }
     ]
   },
@@ -32006,6 +32448,17 @@
           "/"
         ],
         "target": "/seu/cse/:type?"
+      }
+    ],
+    "cyber": [
+      {
+        "title": "网络空间安全学院 - 通知公告",
+        "docs": "https://docs.rsshub.app/routes/university",
+        "source": [
+          "/tzgg/list.htm",
+          "/"
+        ],
+        "target": "/seu/cyber/tzgg"
       }
     ],
     "radio": [
@@ -34119,6 +34572,19 @@
       }
     ]
   },
+  "stanford.edu": {
+    "_name": "Stanford",
+    "hazyresearch": [
+      {
+        "title": "Hazy Research Blog",
+        "docs": "https://docs.rsshub.app/routes/blog",
+        "source": [
+          "/blog"
+        ],
+        "target": "/stanford/hazyresearch/blog"
+      }
+    ]
+  },
   "startuplatte.com": {
     "_name": "創新拿鐵",
     ".": [
@@ -34495,6 +34961,14 @@
   "storm.mg": {
     "_name": "風傳媒",
     ".": [
+      {
+        "title": "频道",
+        "docs": "https://docs.rsshub.app/routes/new-media",
+        "source": [
+          "/channel/:id"
+        ],
+        "target": "/storm/channel/:id?"
+      },
       {
         "title": "分类",
         "docs": "https://docs.rsshub.app/routes/new-media",
@@ -36865,6 +37339,19 @@
       }
     ]
   },
+  "tver.jp": {
+    "_name": "TVer",
+    ".": [
+      {
+        "title": "Series",
+        "docs": "https://docs.rsshub.app/routes/traditional-media",
+        "source": [
+          "/series/:id"
+        ],
+        "target": "/tver/series/:id"
+      }
+    ]
+  },
   "twitch.tv": {
     "_name": "Twitch",
     "www": [
@@ -37957,6 +38444,20 @@
       }
     ]
   },
+  "warhammer-community.com": {
+    "_name": "Warhammer Community",
+    "www": [
+      {
+        "title": "News",
+        "docs": "https://docs.rsshub.app/routes/game",
+        "source": [
+          "/en-gb/all-news-and-features/",
+          "/en-gb/"
+        ],
+        "target": "/warhammer-community/news"
+      }
+    ]
+  },
   "warp.dev": {
     "_name": "Warp",
     "www": [
@@ -38309,6 +38810,27 @@
           "/wiki/Special:%E6%96%B0%E9%97%BB%E8%AE%A2%E9%98%85"
         ],
         "target": "/wikinews/latest"
+      }
+    ]
+  },
+  "windsurf.com": {
+    "_name": "Windsurf",
+    ".": [
+      {
+        "title": "Blog",
+        "docs": "https://docs.rsshub.app/routes/programming",
+        "source": [
+          "/blog"
+        ],
+        "target": "/windsurf/blog"
+      },
+      {
+        "title": "Changelog",
+        "docs": "https://docs.rsshub.app/routes/programming",
+        "source": [
+          "/changelog"
+        ],
+        "target": "/windsurf/changelog"
       }
     ]
   },
